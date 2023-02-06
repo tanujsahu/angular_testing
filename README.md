@@ -15,8 +15,6 @@ Please install Node 18 Long Term Support Edition (LTE).
 # Installing the Angular CLI
 
     npm install -g @angular/cli
-    hello://g.com
-
 
 # How To install this repository
 
