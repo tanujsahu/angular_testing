@@ -36,4 +36,8 @@ describe('MethmaticalComponent', () => {
   it('should check div', () => {
     expect(component.div(2, 1)).toBe(2)
   })
+
+  it('should check mod',()=>{
+    expect(component.mod(2,5)).toBe(2)
+  })
 });
