@@ -5,7 +5,7 @@
   <button mat-menu-item>Item 2</button>
 </mat-menu>
 
-<button mat-button [matMenuTriggerFor]="belowMenu">Below</button>
+<button mat-button [matMenuTriggerFor]="belowMenu" (click)="user()">User</button>
 <mat-menu #belowMenu="matMenu" yPosition="below">
   <button mat-menu-item>Item 1</button>
   <button mat-menu-item>Item 2</button>

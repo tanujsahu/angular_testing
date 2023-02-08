@@ -14,4 +14,8 @@ export class AppComponent {
   mathmatical() {
    return this._router.navigateByUrl('/mathmatical')
   }
+
+  user(){
+    this._router.navigateByUrl('/user/user')
+  }
 }
